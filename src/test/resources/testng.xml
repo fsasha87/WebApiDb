@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All functionality" parallel="methods" thread-count="5">
+    <test name="Calculator">
+        <classes>
+            <class name="tests.TaxerTest"/>
+        </classes>
+    </test>
+    <test name="DB test">
+        <classes>
+            <class name="tests.DBTest"/>
+        </classes>
+    </test>
+    <test name="API test">
+        <classes>
+            <class name="tests.TaxerTestAPI"/>
+        </classes>
+    </test>
+</suite>
